@@ -1,5 +1,6 @@
 import React from 'react';
-import { FaReact, FaJsSquare, FaNodeJs, FaHtml5, FaCss3Alt, FaGitAlt, FaSass, FaBootstrap } from 'react-icons/fa'; // Incluye más íconos
+import { FaReact, FaJsSquare, FaNodeJs, FaHtml5, FaCss3Alt, FaGitAlt, FaSass, FaBootstrap,FaDatabase } from 'react-icons/fa'; 
+import { SiRedux,SiPostgresql } from 'react-icons/si'
 import "../styles/Technologies.css";
 
 const Technologies = () => {
@@ -15,6 +16,9 @@ const Technologies = () => {
         <div className="tech-icon"><FaGitAlt size={50} /></div>
         <div className="tech-icon"><FaSass size={50} /></div>
         <div className="tech-icon"><FaBootstrap size={50} /></div>
+        <div className="tech-icon"><SiRedux size={50} /></div>
+        <div className="tech-icon"><SiPostgresql size={50} /></div>
+        <div className="tech-icon"><FaDatabase size={50} /></div>
       </div>
     </section>
   );

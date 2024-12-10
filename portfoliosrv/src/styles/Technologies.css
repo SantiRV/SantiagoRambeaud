@@ -1,0 +1,40 @@
+.technologies-section {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #0d0d0d; /* Fondo oscuro */
+    color: #ccc; /* Color de texto similar al resto de la página */
+  }
+  
+  .technologies-section h2 {
+    font-size: 2.5rem;
+    color: #e67e22; /* Color destacado */
+    margin-bottom: 30px;
+  }
+  
+  .technologies-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(80px, 1fr));
+    gap: 20px;
+    justify-items: center; /* Esto centra los íconos horizontalmente */
+    align-items: center; /* Esto los centra verticalmente */
+    margin: 0 auto; /* Asegura que el contenedor esté centrado en la página */
+    max-width: 1200px; /* Puedes ajustar el ancho máximo si lo deseas */
+  }
+  
+  
+  .tech-icon {
+    background-color: #333; /* Fondo gris para los íconos */
+    border-radius: 10px;
+    padding: 20px;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+  }
+  
+  .tech-icon:hover {
+    background-color: #5ea890; /* Color de fondo cuando pasa el ratón */
+    transform: scale(1.2); /* Efecto de zoom en el icono */
+  }
+  
+  .tech-icon svg {
+    color: #fff; /* Color blanco para los íconos */
+  }
+  

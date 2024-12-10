@@ -3,6 +3,7 @@ import About from './About';
 import Services from './Services';
 import Contact from './Contact';
 import Projects from './Projects';
+import CVSection from './CvSection';
 
 const MainPage = () => {
   return (
@@ -10,6 +11,7 @@ const MainPage = () => {
       <About />
       <Services />
       <Projects />
+      <CVSection />
       <Contact />
       
     </div>

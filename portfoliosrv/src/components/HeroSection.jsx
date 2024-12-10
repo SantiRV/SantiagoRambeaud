@@ -20,6 +20,11 @@ const HeroSection = () => {
 
   return (
     <div className="hero-section">
+      <video autoPlay muted loop className="video-background">
+        <source src="/LoopPresentation.mp4" type="video/mp4" />
+        Your browser does not support the video tag.
+      </video>
+
       <div className={`hero-title ${showContent ? 'hide' : 'show'}`}>
         Portfolio Santiago Rambeaud Vazquez
       </div>

@@ -17,3 +17,4 @@ const CVSection = () => {
 };
 
 export default CVSection;
+

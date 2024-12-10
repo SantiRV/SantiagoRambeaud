@@ -1,71 +1,87 @@
+/* Projects Section Styles */
 .projects-section {
-    background-color: #0d0d0d; /* Fondo oscuro para la sección */
-    padding: 50px 20px;
-  }
-  
-  .projects-title {
-    font-size: 2.5rem;
-    text-align: center;
-    color: #e67e22; /* Color destacado */
-    margin-bottom: 40px;
-  }
-  
-  .projects-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 20px;
-  }
-  
-  .project-card {
-    background-color: #333; /* Fondo gris oscuro */
-    padding: 20px;
-    border-radius: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    text-align: center;
-  }
-  
-  .project-card img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 10px;
-  }
-  
-  .project-card h3 {
-    margin: 10px 0;
-    font-size: 1.5rem;
-    color: white;
-  }
-  
-  .project-card p {
-    font-size: 1rem;
-    margin-bottom: 20px;
-    color: white
-  }
-  
-  .project-card a {
-    display: inline-block;
-    padding: 10px 20px;
-    background-color: #5ea890;
-    color: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background-color 0.3s;
+  background-image: url('../assets/ProyecrosPart.jpg'); /* Ruta de la imagen que desees usar */
+  background-position: center;
+  background-size: cover; /* Hace que la imagen cubra toda la sección */
+  background-attachment: fixed; /* Hace que la imagen se quede fija mientras haces scroll */
+  color: #fff; /* Color de texto blanco */
+  padding: 80px 20px; /* Espaciado ajustado */
+  text-align: center;
+  position: relative; /* Para que el contenido se sitúe encima de la imagen */
+}
+
+.projects-section::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.4); /* Superposición oscura para mayor contraste */
+  z-index: 1;
+}
+
+.container {
+  position: relative; /* Asegura que los elementos estén por encima de la superposición */
+  z-index: 2;
+}
+
+.projects-title {
+  font-size: 2.5rem;
+  color: #e67e22; /* Color destacado */
+  margin-bottom: 40px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); /* Adaptable a diferentes tamaños de pantalla */
+  gap: 20px;
+}
+
+.project-card {
+  background-color: rgba(51, 51, 51, 0.8); /* Fondo oscuro con algo de opacidad */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.project-card img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.project-card h3 {
+  margin: 10px 0;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.project-card p {
+  font-size: 1rem;
+  margin-bottom: 20px;
+  color: white;
 }
 
 .project-buttons {
-    display: flex; 
-    gap: 10px;  
-    flex-direction: row; 
-    justify-content: center; 
+  display: flex;
+  gap: 10px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.project-card a {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #5ea890;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background-color 0.3s;
 }
 
 .project-card a:hover {
-    background-color: #ee9b00;
+  background-color: #ee9b00;
 }
-
-  
-  .project-card a:hover {
-    background-color: #ee9b00;
-  }
-  

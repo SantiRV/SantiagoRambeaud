@@ -1,24 +1,48 @@
 body {
-    background-color: #161010; /* Fondo negro para toda la página */
-    color: white; /* Texto blanco por defecto */
-    font-family: Arial, sans-serif;
-  }  
+  background-color: #161010; /* Fondo negro para toda la página */
+  color: white; /* Texto blanco por defecto */
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
 
 .cv-section {
-    background-color: #333; /* Fondo gris claro */
-    color: #fff;
-    text-align: center;
-    padding: 60px 20px; /* Añadimos más espacio arriba y abajo */
-    margin: 40px auto; /* Separación entre otros componentes */
-    max-width: 600px;
-    border-radius: 10px;
-  }
-  
-  .cv-title {
-    font-size: 2rem;
-    color: #e67e22;
-    margin-bottom: 20px;
-  }
+  background-color: #222; /* Fondo gris oscuro */
+  color: #fff;
+  text-align: center;
+  padding: 60px 20px; /* Espaciado */
+  margin: 40px auto; /* Espaciado externo */
+  max-width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para destacar */
+}
+
+.cv-title {
+  font-size: 2rem;
+  color: #e67e22; /* Tono naranja */
+  margin-bottom: 20px;
+}
+
+.cv-description {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.cv-button {
+  display: inline-block;
+  background-color: #e67e22; /* Botón naranja */
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.cv-button:hover {
+  background-color: #ca6f1e; /* Efecto hover */
+}
+
   
   .cv-description {
     font-size: 1.2rem;

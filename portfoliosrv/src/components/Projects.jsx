@@ -39,6 +39,13 @@ const projects = [
     code: "https://github.com/SantiRV/TaTeTi-React-JavaScript.git" , 
   },
   {
+    title: 'To-Do List',
+    description: '',
+    link: 'https://to-do-list-gules-three-60.vercel.app/',
+    image: ToDoList,
+    code: 'https://github.com/SantiRV/ToDoList',
+  },
+  {
     title: 'Count app',
     description: 'Count App is a simple yet effective tool designed to practice and demonstrate foundational JavaScript skills. It serves as an interactive counter application with an intuitive user interface.',
     link: 'https://contador-js-gamma.vercel.app/',
@@ -59,13 +66,7 @@ const projects = [
     image: PokemonApp,
     code: "https://github.com/SantiRV/PI-Pokemon" , 
   }, 
-  {
-    title: 'To-Do List',
-    description: '',
-    link: 'https://to-do-list-gules-three-60.vercel.app/',
-    image: ToDoList,
-    code: 'https://github.com/SantiRV/ToDoList',
-  },
+  
 ];
 
 const Projects = () => {

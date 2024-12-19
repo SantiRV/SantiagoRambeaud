@@ -7,6 +7,7 @@ import TaTeTi from "../assets/tatetiapp.png";
 import Count from "../assets/count.png";
 import Nutpage from "../assets/nutpage.png";
 import PokemonApp from "../assets/pokeproyecto.jpg"; 
+import ToDoList from "../assets/To-DoList.png";
 
 const projects = [
   {
@@ -58,6 +59,13 @@ const projects = [
     image: PokemonApp,
     code: "https://github.com/SantiRV/PI-Pokemon" , 
   }, 
+  {
+    title: 'To-Do List',
+    description: '',
+    link: 'https://to-do-list-gules-three-60.vercel.app/',
+    image: ToDoList,
+    code: 'https://github.com/SantiRV/ToDoList',
+  },
 ];
 
 const Projects = () => {

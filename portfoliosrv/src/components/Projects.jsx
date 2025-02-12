@@ -8,6 +8,7 @@ import Count from "../assets/count.png";
 import Nutpage from "../assets/nutpage.png";
 import PokemonApp from "../assets/pokeproyecto.jpg"; 
 import ToDoList from "../assets/To-DoList.png";
+import ExpensesApp from "../assets/ExpensesApp.png";
 
 const projects = [
   {
@@ -16,6 +17,13 @@ const projects = [
     link: 'https://henry-instruments-one.vercel.app/',
     image: HenryMusic,
     code: "https://github.com/SantiRV/henry_instruments/tree/dev/PF-Henry" , 
+  },
+  {
+    title: 'Expenses Manager app',
+    description: ' Expenses Manager is a practical web application designed to help users track their expenses and manage their finances effectively. This project showcases essential React concepts and state management techniques to create a responsive and intuitive user experience.',
+    link: 'https://gestor-de-gastos-eta.vercel.app/',
+    image: ExpensesApp,
+    code: 'https://github.com/SantiRV/gestor-de-gastos',
   },
   {
     title: 'Rain Tonic Weather app',
